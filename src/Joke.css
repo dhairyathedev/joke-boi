@@ -15,7 +15,11 @@ body{
 #joke{
     font-weight: 900;
     border: 1px #ccc;
-    font-size: 30px;
+    font-size: 40px;
     display: inline-block;
     padding-right: 30px;
+}
+.nextBtn{
+    font-size: 20px;
+    display: flex;
 }
