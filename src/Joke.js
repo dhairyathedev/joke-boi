@@ -23,10 +23,10 @@ class Joke extends React.Component{
             <div className="container">
                 {/* <input type="text" className="form-control" id="joke" disabled/>                 */}
                 
-                <Card>
+                <Card className="joke-card">
                     <Card.Body>
-                    <h2 id="joke">Try refreshing the page if you can't find the joke. Note: It is not a joke</h2><br /><hr />
-                       <button className="btn btn-info nextBtn" onClick={this.handleGet}>Don't click here for next joke 😑</button>
+                    <h2 id="joke">Try refreshing the page if you can't find the joke. Note: It is not a joke 🤣</h2><br /><hr />
+                       <button className="btn btn-info nextBtn" onClick={this.handleGet}>I guess you should click here 🤔</button>
                     </Card.Body>
                 </Card>
             </div>
